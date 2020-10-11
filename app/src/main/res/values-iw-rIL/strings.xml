@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="score">"נקודות: "</string>
+    <string name="stage">שלבים</string>
+    <string name="discribe">ברוכים הבאים לאפליקציית מבחן הלוגו - האם תוכלו לזהות את כל הלוגויים שלנו?  השאלון מורכב ממבחר רחב מאוד ומסוגים שונים ומגוונים של לוגיים. אם זאת הפעם הראשונה שלכם/ן אנא עקבו אחרי ההסבר שמופיע בשלב הראשון. המשחק לא מסובך להבנה ומיועד גם לילדים. על מנת לסיים את המשחק עלייך לעבור 24 שלבים שונים, 8 בכל רמה. בכל רמה אתם/ן חייבים/ות לנצח את ששת השלבים הראשונים וזאת על מנת שהרמה הבאה תיפתח עבורכם/ן. במהלך המשחק נסה/י שלא להעזר במקורות חיצוניים כלל! המשחק נועד לבחון את הידע ואת ההיכרות שלך עם לוגויים.... האם תהיו טובים מספיק? פותח על ידי ניב בהר  ודור כהן</string>
+    <string name="not_correct">לא נכון</string>
+    <string name="correct">נכון</string>
+    <string name="login">התחבר</string>
+    <string name="cancel">בטל</string>
+    <string name="ok">שלח</string>
+    <string name="username">שם משתמש</string>
+    <string name="password">סיסמה</string>
+    <string name="female">נקבה</string>
+    <string name="male">זכר</string>
+    <string name="email">אימייל</string>
+    <string name="profile">פרופיל</string>
+    <string name="start_game">התחל משחק</string>
+    <string name="complete">הושלם</string>
+    <string name="completed">הושלם</string>
+    <string name="next">הבא</string>
+    <string name="menu">תפריט</string>
+    <string name="level_three">שלב שלישי</string>
+    <string name="level_two">שלב שני</string>
+    <string name="level_one">שלב ראשון</string>
+    <string name="play">שחק</string>
+    <string name="msg">"אנא מלא/י את הפרופיל שלך על מנת להתחיל לשחק "</string>
+    <string name="tutorial">הכנה</string>
+    <string name="for_choose_press_on_the_letter">לבחירה הקש על האות</string>
+    <string name="finish">סיום</string>
+    <string name="home">בית</string>
+    <string name="about_us">אודות</string>
+    <string name="progress">התקדמות</string>
+    <string name="points">נקודות</string>
+    <string name="level_two_is_now_open">שלב 2 עכשיו נפתח</string>
+    <string name="level_three_is_now_open">שלב 3 עכשיו נפתח</string>
+    <string name="great_job_you_finished_the_game">עבודה טובה סיימת את המשחק</string>
+    <string name="step">שלב</string>
+    <string name="worth">שווה</string>
+</resources>

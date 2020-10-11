@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layoutDirection="rtl">
+    <item
+        android:id="@+id/how_to_play"
+        android:title="@string/about_us"
+        app:showAsAction="never"
+        android:orderInCategory="1"
+        app:actionLayout="@layout/action_layout_favorite" />
+    <item
+        android:id="@+id/main_page"
+        android:title="@string/home"
+        app:showAsAction="never"
+        android:orderInCategory="2"
+        app:actionLayout="@layout/action_layout_favorite" />
+</menu>

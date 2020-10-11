@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AnimActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"/>
+        <activity android:name=".TutorialActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop">
+        </activity>
+        <activity android:name=".InstructionActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"
+            android:noHistory="true">
+        </activity>
+        <activity android:name=".LeaderboardActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"
+            android:noHistory="true">
+        </activity>
+        <activity android:name=".LevelOneActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".LevelTwoActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".LevelThreeActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".BmwActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".ChromeActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".FcbActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".FilaActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".FordActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".GmailActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".HitActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".HondaActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".IkeaActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".KfcActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".KiaActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".KinderActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".LacosteActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".LegoActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".MarsActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".MtvActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".NbaActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".NetflixActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".NflActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".NikeActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".OpelActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".PumaActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".SpriteActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".VisaActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <service
+            android:name=".MusicService"
+            android:enabled="true" />
+    </application>
+
+</manifest>

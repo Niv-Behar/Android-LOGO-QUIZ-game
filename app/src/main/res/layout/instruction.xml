@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/back"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="15dp"
+            android:id="@+id/back"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center|top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="@string/about_us"
+            android:textSize="55sp"
+            android:fontFamily="@font/oli"
+            android:textColor="@color/fadeblack"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|top"
+        android:layout_marginTop="180dp">
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <pl.droidsonroids.gif.GifTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/discribe"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/bgi"
+                android:id="@+id/txt"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

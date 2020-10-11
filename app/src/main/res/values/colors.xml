@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D50000</color>
+    <color name="colorPrimaryDark">#2C9CFF</color>
+    <color name="colorAccent">#DA0091EA</color>
+    <color name="black">#000</color>
+    <color name="fadewhite">#A6FFFFFF</color>
+    <color name="fadeblack">#99000000</color>
+    <color name="trans">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="num">#02A137</color>
+    <color name="start">#004D40</color>
+    <color name="profile">#9A004D40</color>
+    <color name="instruction">#B71C1C</color>
+    <color name="leaderboard">#880E4F</color>
+</resources>

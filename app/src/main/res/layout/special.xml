@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:layout_height="60dp"
+        android:layout_width="0dp"
+        android:id="@+id/country_flag"
+        android:layout_weight="0.7" />
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1.2">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/country_name"
+        android:layout_margin="10dp"
+        android:textSize="35sp"
+        android:fontFamily="@font/fff"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/country_population"
+        android:textSize="17sp"
+        android:fontFamily="@font/bold"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/num"/>
+
+</LinearLayout>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="0dp"
+        android:id="@+id/move_btn"
+        android:layout_weight="1"
+        android:background="@drawable/strt"
+        android:fontFamily="@font/fifth"
+        android:text="@string/points"
+        android:textColor="@color/start"
+        android:textSize="45sp" />
+</LinearLayout>

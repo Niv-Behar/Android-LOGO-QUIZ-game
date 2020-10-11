@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/trans">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="60sp"
+            android:fontFamily="@font/oli"
+            android:textColor="@color/fadeblack"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/img_view"
+            android:layout_width="125dp"
+            android:layout_height="115dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/black"/>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:textColorHint="@color/fadeblack"
+        android:textSize="22sp"
+        android:inputType="textShortMessage"
+        android:id="@+id/edit_username"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:id="@+id/edit_mail"
+        android:textSize="22sp"
+        android:textColorHint="@color/fadeblack"
+        android:inputType="textEmailAddress"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radio">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            android:textSize="25sp"
+            android:id="@+id/female"
+            android:textColor="@color/fadeblack" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:textSize="25sp"
+            android:id="@+id/male"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/fadeblack"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="bottom">
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="55dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/dlt" />
+            <Button
+                android:id="@+id/choose_image_btn"
+                android:layout_width="55dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/img" />
+            <Button
+                android:id="@+id/camera"
+                android:layout_width="55dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/cma" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/gender"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

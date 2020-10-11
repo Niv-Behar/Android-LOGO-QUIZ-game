@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <item name="colorPrimary">#00DC0000</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="titleTextColor">#00000000</item>
+    </style>
+    <style name="CustomDialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@drawable/dia</item>
+    </style>
+    <style name="CustomMenu" parent="android:Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@drawable/menubg</item>
+    </style>
+<style name="toast">
+    <item name="android:colorBackground">@color/fadewhite</item>
+    <item name="color">@color/fadeblack</item>
+    <item name="duration">6000
+    </item>
+</style>
+</resources>
